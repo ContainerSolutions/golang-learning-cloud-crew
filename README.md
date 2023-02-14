@@ -27,3 +27,12 @@ A repo to play around with golang
    ```
    go version
    ```
+
+## Go CLI commands
+- `go run hello.go` - executes the hello app
+
+- `go get <library-url>` - downloads the library
+
+- `go build .` - compiles the app using the current platform architecture; you can specify which platform to compile for (linux, windows, mac, etc)
+
+- `go mod tidy` - literally to tidy up; clears unused libraries
